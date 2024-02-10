@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png" />
+  <link rel="manifest" href="../favicon/site.webmanifest" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="../js/script-2.js"></script>
+  <title>Home work #6</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Home work #6</h1>
+    <p class="autor">Хомич Любов</p>
+  </header>
+  <main class="main">
+    <h2>"Основи роботи з функціями"</h2>
+    <article>
+      <h3>2. Задача про рекурсію</h3>
+      <p>
+        Напишіть функцію яка рекурсивно буде знаходити суму всіх непарних додатніх чисел до якогось числа.
+      </p>
+      <p><em>Приклад</em></p>
+      <pre>
+          <code>
+            function recursiveOddSumTo(number) {
+
+              // тут ваш код
+              
+              };
+              
+              console.log(recursiveOddSumTo(1)) // 1
+              console.log(recursiveOddSumTo(9)) // 25
+              console.log(recursiveOddSumTo(10)) // 25              
+          </code>
+        </pre>
+    </article>
+    <article>
+      <h2>Звіт</h2>
+      <p>
+        Файл зі скриптами - <a href="../js/script-2.js" target="_blank">Скрипт</a>.
+      </p>
+      <p>
+        Старалася писати коментарі.
+      </p>
+      <p>
+        Щоб організвати рекурсію, мені потрібно фактично пройтися по натуральних числах - зменшувати вхідне значення на 1.
+      </p>
+      <p>
+        Додаткову функцію з першого завдання, яка перевіряє вхідне значення на додтнє число, перписала, щоб на виході отримувати лише найбільше ціле число, яке не перевищоє даного.
+      </p>
+      <p>
+        Фінальна функція <code>calcOddSumTo()</code> - нагається звести вхідне значення до найбільшого цілого значення, якщо вдається - викликається рекурсія, інакше повідомлення про помилку.
+      </p>
+      <p></p>
+    </article>
+  </main>
+</body>
+
+</html>
