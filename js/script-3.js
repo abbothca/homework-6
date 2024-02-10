@@ -13,7 +13,7 @@ function countSymbol(string, substring) {
 
 // Функція, яка порівнюватиме кількість входжень символів х і о
 const isXOEqual = (str) => {
-    return (countSymbol(str.toLowerCase(), "x") === countSymbol(str.toLocaleLowerCase(), "o")) ? true : false;  //якщо кількість входжень х рівня кількості входжень о - повертаємо true, інакше false
+    return (countSymbol(str.toLowerCase(), "x") === countSymbol(str.toLocaleLowerCase(), "o"));  //якщо кількість входжень х рівня кількості входжень о - повертаємо true, інакше false
         //передаємо в допоміжну фукнцію рядок, переведений в нижній регістр, щоб функція була регістронечутливою
 }
 

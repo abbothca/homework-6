@@ -4,7 +4,7 @@ function recursiveOddSumTo(number) {
     if (number < 1) {
         return 0;
     };
-    return (number % 2) ? number + recursiveOddSumTo(number - 1) : recursiveOddSumTo(number - 1);
+    return (number % 2) ? number + recursiveOddSumTo(number - 2) : recursiveOddSumTo(number - 1);
 };
 
 // Перевіряємо результати роботи коду
